@@ -26,8 +26,8 @@
       background-size: 400%;
       height: 100vh;
       width: 100%;
-      background-image: linear-gradient(-45deg,white, rgb(142, 194, 255) , white,rgb(219, 142, 255));
-      animation: animate 15s ease-in infinite alternate;
+      background-image: linear-gradient(45deg, rgb(222, 151, 255), white ,rgb(130, 188, 255));
+      animation: animate 15s ease-in infinite alternate-reverse;
     }
 
     @keyframes animate {
@@ -45,7 +45,8 @@
     }
     .nav-item:hover
     {
-      border-radius: 10%;
+      border-radius: 30%;
+      border-color: black;
       background-size: 300%;
       background-image: linear-gradient(-45deg, rgb(155, 202, 255),white,rgb(229, 174, 255));
       animation: animate 1s infinite ;
@@ -63,6 +64,33 @@
       font-weight: bold;
       font-size: 30px;
     }
+
+    .meta-text{
+      text-align: center;
+      justify-content: center;
+      display: flex;
+     
+    }
+
+  .onePlace{
+    font-size: 1.3rem;
+    
+  }
+  .tag{
+    margin-top: 6%;
+  }
+
+  #i3{
+    font-size: 5rem;
+  }
+
+  .para1{
+    word-wrap: break-all;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:2%;
+  }
+
 
   </style>
 </head>
@@ -84,16 +112,33 @@
               <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Disabled</a>
+              <a class="nav-link">About Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     
+
+    <div class="meta-text">
+
+      <div class="tag">
+        <span class="onePlace">One Place To
+        </span><br>
+        <div id="i3">
+          Inquire Interact Inspire
+        </div >
+      </div>
+        
+      </div>
+      <div class="para1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A similique eos, dignissimos, exercitationem quibusdam porro quaerat dolore id, repellat fuga obcaecati consequatur beatae cum! Nemo eum accusantium voluptates laborum ea!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, omnis. Maxime, impedit fugit! Ullam eveniet 
+      </div>
+      
 
 
 
