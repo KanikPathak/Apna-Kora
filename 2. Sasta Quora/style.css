@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Text';
+}
+
+button:hover{
+    color: rgb(104, 118, 152);
+}
+
+.box {
+    padding: 0;
+    margin: 0;
+    background-size: 400%;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(222, 151, 255), white, rgb(130, 188, 255));
+    animation: animate 15s ease-in infinite alternate-reverse;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 20%;
+    }
+
+    50% {
+        background-position: 80% 50%;
+    }
+
+    100% {
+        background-position: 20%;
+    }
+}
+
+.container-fluid {
+    position: sticky;
+}
+
+.nav-item:hover {
+    border-radius: 30%;
+    border-color: black;
+    background-size: 300%;
+    background-image: linear-gradient(-45deg, rgb(155, 202, 255), white);
+    animation: animate 1s infinite ease;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+
+.side {
+    gap: 20px;
+}
+
+.sarovar {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.forum_box {
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 60vw;
+    margin: 100px auto;
+}
+
+.topbar {
+    margin: 0 3px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar_buttons {
+    font-size: 14px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.top_right {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.search {
+    border: 1px solid black;
+}
+
+.login {
+    border: 1px solid black;
+    color: rgb(104, 118, 152); 
+    font-size: 14px;
+}
+
+.bi {
+    padding: 3px;
+    height: 25px;
+    width: auto;
+    margin-top: -5px;
+    margin-right: -4px;
+    background: white;
+}
+
+.top_right input {
+    border: none;
+}
+
+.line {
+    width: 96%;
+    margin: auto;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.253);
+}
+
+.rest {
+    display: flex;
+    flex-direction: column;
+}
+
+.rest button {
+    margin: 20px;
+    background-color: rgb(104, 118, 152);
+    color: white;
+    border: none;
+    font-size: 13px;
+    width: 20%;
+    align-self: flex-end;
+    padding: 5px 20px;
+}
+
+.rest button:hover {
+    background-color: rgb(158, 171, 203);
+}
+
+p {
+    font-size: 12px;
+}
+
+.posts {
+    margin: 10px 30px;
+}
+
+.posts h6:hover {
+    color: rgb(104, 118, 152);
+    cursor: pointer;
+}
