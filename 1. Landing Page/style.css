@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Text';
+}
+
+.box {
+    padding: 0;
+    margin: 0;
+    background-size: 400%;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(222, 151, 255), white, rgb(130, 188, 255));
+    animation: animate 15s ease-in infinite alternate-reverse;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 20%;
+    }
+
+    50% {
+        background-position: 80% 50%;
+    }
+
+    100% {
+        background-position: 20%;
+    }
+}
+
+.container-fluid {
+    position: sticky;
+}
+
+.nav-item:hover {
+    border-radius: 30%;
+    border-color: black;
+    background-size: 300%;
+    background-image: linear-gradient(-45deg, rgb(155, 202, 255), white);
+    animation: animate 1s infinite ease;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+
+.side {
+    gap: 20px;
+}
+
+.sarovar {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.meta-text {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.onePlace {
+    font-size: 1.3rem;
+}
+
+.tag {
+    margin-top: 6%;
+}
+
+#i3 {
+    font-size: 5rem;
+}
+
+.para1 {
+    word-wrap: break-all;
+    text-align: center;
+    /* Center align the text */
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    font-size: 1.1em;
+}
+
+#pehli {
+    position: fixed;
+}
+
+#dive {
+    height: 10%;
+    width: 15%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 3%;
+    border-radius: 20%;
+    margin-left: 43%;
+    border-spacing: 0;
+}
+
+/* <!-- Quotes vala prototype below --> */
+/* 
+.lanka {
+    background-color: red;
+    width: auto;
+    margin: 60px;
+    height: 75vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#lanka {
+    padding: 0 0 20px 0;
+    width: 60%;
+}
+
+.left, .right {
+    align-self: center;
+    border: none;
+    height: 100px;
+    width: 100px;
+}
+
+.left {
+    background: url(Media/left.png) no-repeat;
+}
+
+.right {
+    background: url(Media/right.png) no-repeat;
+} */
+
+/* <!-- Quotes vala prototype above --> */
