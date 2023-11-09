@@ -98,6 +98,35 @@ body {
     border-spacing: 0;
 }
 
+
+.Welcome{
+   background-color: rgb(0, 0, 0);
+    color :white;
+    height: 10%;
+    width: 30%;
+    text-wrap: wrap;
+    border: white 2px solid;
+    margin-top: 20px;
+    border-radius:1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    font-size: 2rem;
+}
+
+.Welcome:hover{
+    transition: ease-in;
+    background-color: transparent;
+    border-color: black;
+    color: rgb(0, 0, 0);
+}
+
+.action1{
+}
+   
+        
+    
 /* <!-- Quotes vala prototype below --> */
 /* 
 .lanka {
