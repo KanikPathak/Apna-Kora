@@ -4,13 +4,13 @@
         let temp = 0;
 
         function animateText() {
-            if (temp > text.length) {
-            i3.innerHTML="";
-             temp=0;
+            if (temp < text.length) {
+                
+                i3.innerHTML += text.charAt(temp);
+                temp++;
+                setTimeout(animateText, 200);
+               
             }
-            i3.innerHTML += text.charAt(temp);
-            temp++;
-            setTimeout(animateText, 200);
         }
 
         animateText();
