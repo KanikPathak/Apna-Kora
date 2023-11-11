@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -71,43 +72,30 @@ body {
 
 #i3 {
     font-size: 5rem;
+    border-right: 2px solid rgb(0, 0, 0);
+    overflow: hidden; 
+    color: brown;
+     
 }
 
 .para1 {
-    word-wrap: break-all;
+
     text-align: center;
-    /* Center align the text */
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 2%;
     font-size: 1.1em;
 }
 
-#pehli {
-    position: fixed;
-}
-
-#dive {
-    height: 10%;
-    width: 15%;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    margin-top: 3%;
-    border-radius: 20%;
-    margin-left: 43%;
-    border-spacing: 0;
-}
-
-
-.Welcome{
-   background-color: rgb(0, 0, 0);
-    color :white;
+.Welcome {
+    background-color: rgb(0, 0, 0);
+    color: white;
     height: 10%;
     width: 30%;
     text-wrap: wrap;
     border: white 2px solid;
     margin-top: 20px;
-    border-radius:1.5rem;
+    border-radius: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,48 +103,9 @@ body {
     font-size: 2rem;
 }
 
-.Welcome:hover{
+.Welcome:hover {
     transition: ease-in;
     background-color: transparent;
     border-color: black;
     color: rgb(0, 0, 0);
 }
-
-.action1{
-}
-   
-        
-    
-/* <!-- Quotes vala prototype below --> */
-/* 
-.lanka {
-    background-color: red;
-    width: auto;
-    margin: 60px;
-    height: 75vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-#lanka {
-    padding: 0 0 20px 0;
-    width: 60%;
-}
-
-.left, .right {
-    align-self: center;
-    border: none;
-    height: 100px;
-    width: 100px;
-}
-
-.left {
-    background: url(Media/left.png) no-repeat;
-}
-
-.right {
-    background: url(Media/right.png) no-repeat;
-} */
-
-/* <!-- Quotes vala prototype above --> */
