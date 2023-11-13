@@ -39,7 +39,7 @@ body {
     border-radius: 30%;
     border-color: black;
     transition: background-color .3s;
-   background-color: white;
+    background-color: white;
 }
 
 .collapse {
@@ -74,7 +74,7 @@ body {
 #i3 {
     font-size: 5rem;
     border-right: 2px solid rgb(0, 0, 0);
-    overflow: hidden; 
+    overflow: hidden;
     color: brown;
 }
 
@@ -106,15 +106,16 @@ body {
 
 .ask {
     background-color: #27ae60;
-    border: 2px solid #27ae60 ;
-}
-.buy {
-    background-color: rgb(255, 58, 107);
-    border: 2px solid rgb(255, 58, 107) ;
+    border: 2px solid #27ae60;
 }
 
-    .buy,.ask
-    {border-radius: 50%;
+.buy {
+    background-color: rgb(255, 58, 107);
+    border: 2px solid rgb(255, 58, 107);
+}
+
+.buy, .ask {
+    border-radius: 50%;
     margin-top: 5%;
     padding: 4%;
     width: max-content;
@@ -123,14 +124,15 @@ body {
     transition: background-color 0.3s;
     text-transform: uppercase;
     font-weight: bold;
-    color: white;}
-
-
-
-
+    color: white;
+}
 
 .buy:hover, .ask:hover {
     background-color: transparent;
     border-color: black;
     color: #000;
+}
+
+.buttons button{
+    margin: 20px;
 }
