@@ -27,12 +27,10 @@ body {
     }
 }
 
-.container-fluid {
-    position: sticky;
-}
-
-.navbar {
+.navbar{
     background-color: #3498db;
+    position: sticky !important;
+    top: 0;
 }
 
 .nav-item:hover {
