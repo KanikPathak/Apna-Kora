@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Wix Madefor Text';
 }
 
-button:hover{
+button:hover {
     color: rgb(104, 118, 152);
+}
+.navbar{
+    background-color: #3498db;
+    position: sticky !important;
+    top: 0;
 }
 
 .box {
@@ -32,10 +42,6 @@ button:hover{
     }
 }
 
-.container-fluid {
-    position: sticky;
-}
-
 .nav-item:hover {
     border-radius: 30%;
     border-color: black;
@@ -60,91 +66,83 @@ button:hover{
 }
 
 .forum_box {
-    background-color: whitesmoke;
-    height: 100vh;
-    width: 60vw;
-    margin: 100px auto;
+    padding: 100px 0;
+    width: 90vw;
+    /* border: 10px solid black; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.topbar {
-    margin: 0 3px;
+.left_part {
+    margin: 0 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;   
+    gap: 10px;
+    padding: 5px;
+}
+
+.left_part img {
+    width: 15%;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.categories {
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.topbar_buttons {
-    font-size: 14px;
+    padding-right: 20px;
+    width: 100%;
+    border: none;
     background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.top_right {
+    font-weight: 900;
+    line-height: 1.5em;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    align-items: center;
+    text-align: center;
 }
 
-.search {
-    border: 1px solid black;
+.categories:hover {
+    border-radius: 100px;
+    color: #566fff;
+    background-color: rgba(128, 128, 128, 0.050);
 }
 
-.login {
-    border: 1px solid black;
-    color: rgb(104, 118, 152); 
-    font-size: 14px;
-}
-
-.bi {
-    padding: 3px;
-    height: 25px;
-    width: auto;
-    margin-top: -5px;
-    margin-right: -4px;
-    background: white;
-}
-
-.top_right input {
-    border: none;
-}
-
-.line {
-    width: 96%;
-    margin: auto;
-    height: 1px;
-    background-color: rgba(128, 128, 128, 0.253);
-}
-
-.rest {
+.user {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-.rest button {
-    margin: 20px;
-    background-color: rgb(104, 118, 152);
-    color: white;
+.dp {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: -10px;
+    background-color: orange;
+}
+
+.question_part p, .answer_part p{
+    margin: 20px 0;
+    width: 60%;
+}
+
+.upvotes img {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.upvotes {
     border: none;
-    font-size: 13px;
-    width: 20%;
-    align-self: flex-end;
-    padding: 5px 20px;
+    background: none;
+    width: auto;
+    height: 50px;
+    max-width: 100px;
+    display: flex;
+    align-items: center;
 }
 
-.rest button:hover {
-    background-color: rgb(158, 171, 203);
-}
-
-p {
-    font-size: 12px;
-}
-
-.posts {
-    margin: 10px 30px;
-}
-
-.posts h6:hover {
-    color: rgb(104, 118, 152);
-    cursor: pointer;
+hr {
+    width: 70%;
 }
